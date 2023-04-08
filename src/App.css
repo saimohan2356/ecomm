@@ -1,0 +1,7 @@
+.App{
+  width: 100%;
+}
+.bestseller{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}

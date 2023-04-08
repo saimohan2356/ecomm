@@ -1,0 +1,27 @@
+.banner-container{
+    width: 95%;
+    .banner-slide-container{
+        width: 100%;
+        border-radius: 10px;
+        overflow: hidden;
+        .banner-img-slide{
+            width: 100%;
+        }
+    }
+    .flex-box{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-top: 3rem;
+        .saleImg{
+            width: 65%;
+            border-radius: 10px;
+        }
+        .saleImg:hover{
+            cursor: pointer;
+        }
+    }
+}
+.banner-slide-container:hover{
+    cursor: pointer;
+}

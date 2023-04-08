@@ -1,0 +1,24 @@
+.card{
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    .cardimg{
+        width: 100%;
+        border-radius: 8px;
+    }
+    .price{
+        font-weight: 600;
+    }
+}
+.card:hover{
+    transition: 250ms;
+    transform: translateY(-.15rem);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px 5px rgb(241, 241, 241);
+    cursor: pointer;
+}
+.card:hover .cardimg{
+    border-radius: 0;
+}
